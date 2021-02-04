@@ -1,8 +1,6 @@
 provider "aws" {
   region = var.aws_region
-  access_key = ""
-  secret_key = "" 
-  
+
 }
 
 resource "aws_key_pair" "ec2-user-public" {
