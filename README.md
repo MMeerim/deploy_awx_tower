@@ -8,4 +8,10 @@ Once you apply, you should be able to login to AWX using username: "admin", pass
 
 
 
+export AWS_ACCESS_KEY_ID=
+
+export AWX_SECRET_ACCESS_KEY=
+
+
+terraform apply --var-file=values.tfvars --auto-approve
 
